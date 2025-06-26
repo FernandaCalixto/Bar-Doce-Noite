@@ -1,0 +1,110 @@
+/* Fundo geral e texto */
+
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Navbar */
+
+.navbar-dark {
+    background-color: #121212 !important;
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+    color: #CBA135;
+}
+
+.navbar-dark .nav-link.active,
+.navbar-dark .nav-link:hover {
+    color: #E0BE6D;
+}
+
+
+/* Botões amarelo/dourado */
+
+.btn-warning {
+    background-color: #CBA135;
+    border-color: #CBA135;
+    color: #121212;
+    font-weight: 600;
+}
+
+.btn-warning:hover {
+    background-color: #E0BE6D;
+    border-color: #E0BE6D;
+    color: #121212;
+}
+
+
+/* Banner */
+
+.banner {
+    background: url('https://images.unsplash.com/photo-1510626176961-4b28f16498ec?auto=format&fit=crop&w=1350&q=80') no-repeat center center;
+    background-size: cover;
+    color: #E0BE6D;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+}
+
+.banner h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+
+/* Títulos das seções */
+
+.section-title {
+    color: #CBA135;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+
+/* Cards */
+
+.card {
+    background-color: #1E1E1E;
+    border: none;
+    box-shadow: 0 4px 12px rgba(203, 161, 53, 0.3);
+    color: #FFFFFF;
+}
+
+.card-footer {
+    color: #CBA135;
+    font-weight: 600;
+}
+
+
+/* Rodapé */
+
+footer {
+    background-color: #1E1E1E;
+    color: #CBA135;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 0.9rem;
+}
+
+
+/* Fade-in effect */
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in.appear {
+    opacity: 1;
+    transform: translateY(0);
+}
